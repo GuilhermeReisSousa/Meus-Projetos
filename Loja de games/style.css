@@ -8,6 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100;200;300;400;500;600;700&display=swap');
 
 body{
+    background-color: black;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -53,20 +54,77 @@ a{
     font-size: 17px;
 }
 
-section{
-
+.container{
+    display: flex;
 }
 
 .card{
-    width: 500px;
-    height: 500px;
+    background-color: white;
+    width: 250px;
+    height: 400px;
+    margin: 15px;
 }
 
-.img{
-    
+.card-img{
+    background-color: aqua;
+    height: 150px;
+    margin-bottom: 15px;
 }
 
-footer{
+.pro-1{
+    background-image: url(img/asteroids.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pro-2{
+    background-image: url(img/defender.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pro-3{
+    background-image: url(img/donkeyjpg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.pro-4{
+    background-image: url(img/galaga.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pro-5{
+    background-image: url(img/pacman.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pro-6{
+    background-image: url(img/pong.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pro-7{
+    background-image: url(img/spacealien.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pro-8{
+    background-image: url(img/zork.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* footer{
     position: absolute;
     overflow: hidden;
     bottom: 0;
@@ -76,4 +134,4 @@ footer{
 
     color: white;
     background-color: #0B9994;
-}
+} */
