@@ -1,32 +1,79 @@
 @charset "utf-8";
 
+@font-face {
+    font-family: 'gamer';
+    src: url(fonts/Gamer.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100;200;300;400;500;600;700&display=swap');
+
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'IBM Plex Sans Thai Looped', sans-serif;
 }
 
 header{
-    overflow: hidden;
     position: sticky;
-    margin: auto;
+    overflow: hidden;
+    top: 0;
     width: 100%;
-    background-color: dodgerblue;
+    margin: auto;
+
+    color: white;
+    background-color: #125699;
+}
+
+.logo{
+    display: inline-block;
 }
 
 h1{
-    display: inline-block;
-    margin: 0;
+    display: inline; 
+    font-size: 50px;
+    margin-left: 10px;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    font-family: 'gamer', sans-serif ;
 }
 
 ul{
-    list-style: none; 
-    margin: 0;
-    padding: 0;
+    display: inline-block;
     float: right;
 }
 
 li{
     display: inline-block;
-    float: left;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 17px;
+}
+
+section{
+
+}
+
+.card{
+    width: 500px;
+    height: 500px;
+}
+
+.img{
+    
+}
+
+footer{
+    position: absolute;
+    overflow: hidden;
+    bottom: 0;
+    padding-right: auto;
+    margin: auto;
+    width: 100%;
+
+    color: white;
+    background-color: #0B9994;
 }
