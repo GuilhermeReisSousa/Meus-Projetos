@@ -7,12 +7,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100;200;300;400;500;600;700&display=swap');
 
-body{
-    background-color: black;
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.644);
     font-family:'IBM Plex Sans Thai Looped', sans-serif;
+    margin: auto;
 }
 
 header{
@@ -21,7 +25,6 @@ header{
     top: 0;
     width: 100%;
     margin: auto;
-
     color: white;
     background-color: #125699;
 }
@@ -39,6 +42,7 @@ h1{
 }
 
 ul{
+    margin-top: 10px;
     display: inline-block;
     float: right;
 }
@@ -54,21 +58,37 @@ a{
     font-size: 17px;
 }
 
+/* section{
+    
+} */
+
 .container{
-    display: flex;
+    display: inline-block;
+    margin: auto;
 }
 
 .card{
+    border-radius: 10px;
     background-color: white;
     width: 250px;
     height: 400px;
     margin: 15px;
 }
 
+.card h2{
+    text-align: center;
+}
+
+.card p {
+    margin-top: 10px;
+    font-size: 19px;
+}
+
 .card-img{
-    background-color: aqua;
+    border-radius: 10px;
     height: 150px;
     margin-bottom: 15px;
+
 }
 
 .pro-1{
@@ -124,14 +144,68 @@ a{
     background-size: cover;
 }
 
-/* footer{
-    position: absolute;
-    overflow: hidden;
-    bottom: 0;
-    padding-right: auto;
-    margin: auto;
+footer{
+    padding: 15px;
+    text-align: center;
+    padding-bottom: 38px;
     width: 100%;
-
     color: white;
     background-color: #0B9994;
-} */
+}
+
+@media screen and (max-width: 1480px){
+    section{
+        text-align: center;
+        width: 100%;
+    }
+
+    .container{
+        margin: auto;
+        text-align: left;
+    }
+    
+}
+
+@media screen and (max-width: 1180px){
+    section{
+        margin: auto;
+        text-align: center;
+        width: 100%;
+    }
+
+    .pro-7{
+        text-align: left;
+    }
+
+    .pro-8{
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 900px){ 
+    section{
+        text-align: center;
+    }
+
+    .container{
+        margin: auto;
+        text-align: left;
+    }
+}
+
+.container a{
+    color: black;
+    margin-top: 50px;
+}
+
+.btn{
+    background-color: #0df1ea;
+    margin-top: 140px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.151) ;
+    border-radius: 8px 8px 10px 10px;
+    height: 40px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
