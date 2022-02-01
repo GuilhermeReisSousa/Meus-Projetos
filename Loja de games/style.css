@@ -151,7 +151,7 @@ footer{
     padding-bottom: 38px;
     width: 100%;
     color: white;
-    background-color: #0B9994;
+    background-color: #0B87D9;
 }
 
 @media screen and (max-width: 1480px){
@@ -200,13 +200,13 @@ footer{
 }
 
 .btn{
-    background-color: #0df1ea;
+    background-color: #00D1F0;
     margin-top: 116px;
     text-align: center;
     border: 1px solid rgba(0, 0, 0, 0.151) ;
     border-radius: 8px 8px 10px 10px;
     height: 40px;
     text-align: center;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: bold;
 }
