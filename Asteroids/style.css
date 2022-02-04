@@ -60,15 +60,15 @@ a{
 }
 
 section{
-    position: absolute;
-    top: 50%;
+    position: relative;
+    /* top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
 }
 
 .card-img{
     background-image: url(../img/asteroids.jpg);
-    height: 150px;
+    height: 250px;
     background-size: cover;
     border-radius: 10px;
 }
@@ -83,16 +83,17 @@ section{
 }
 
 .btn{
-    position: relative;
+    position: absolute;
+    display: inline-block;
     background-color: #00D1F0;
-    top: 45.6%;
+    top: 94.5%;
     text-align: center;
     border: 1px solid rgba(0, 0, 0, 0.151) ;
     border-radius: 8px 8px 10px 10px;
     text-align: center;
     font-size: 28px;
     font-weight: bold;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 
