@@ -90,54 +90,54 @@ a{
 }
 
 .pro-1{
-    background-image: url(img/asteroids.jpg);
+    background-image: url(../img/asteroids.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .pro-2{
-    background-image: url(img/defender.jpeg);
+    background-image: url(../img/defender.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .pro-3{
-    background-image: url(img/donkeyjpg.jpg);
+    background-image: url(../img/donkeyjpg.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 
 .pro-4{
-    background-image: url(img/galaga.jpeg);
+    background-image: url(../img/galaga.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .pro-5{
-    background-image: url(img/pacman.jpg);
+    background-image: url(../img/pacman.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .pro-6{
-    background-image: url(img/pong.jpg);
+    background-image: url(../img/pong.jpg);
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .pro-7{
-    background-image: url(img/spacealien.jpg);
+    background-image: url(../img/spacealien.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .pro-8{
-    background-image: url(img/zork.jpg);
+    background-image: url(../img/zork.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
