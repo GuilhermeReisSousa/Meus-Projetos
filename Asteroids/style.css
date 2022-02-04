@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'gamer';
+    src: url(../font/Gamer.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.644);
+    font-family:'IBM Plex Sans Thai Looped', sans-serif;
+    margin: auto;
+}
+
+header{
+    position: sticky;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    margin: auto;
+    color: white;
+    background-color: #125699;
+}
+
+.logo{
+    display: inline-block;
+    font-size: 28px;
+}
+
+h1{
+    display: inline; 
+    font-size: 50px;
+    margin-left: 10px;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    font-family: 'gamer', sans-serif ;
+}
+
+ul{
+    margin-top: 10px;
+    display: inline-block;
+    float: right;
+}
+
+li{
+    display: inline-block;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 17px;
+}

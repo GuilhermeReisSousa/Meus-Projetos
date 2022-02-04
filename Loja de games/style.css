@@ -1,8 +1,8 @@
 @charset "utf-8";
 
 @font-face {
-    font-family: 'gamer';
-    src: url(fonts/Gamer.ttf);
+    font-family: 'nomeLoja';
+    src: url(../font/Gamer.ttf);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100;200;300;400;500;600;700&display=swap');
@@ -38,7 +38,7 @@ h1{
     font-size: 50px;
     margin-left: 10px;
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
-    font-family: 'gamer', sans-serif ;
+    font-family: 'nomeLoja', Arial, Helvetica, sans-serif;
 }
 
 ul{
