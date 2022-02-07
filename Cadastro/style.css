@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'gamer';
+    src: url(../font/Gamer.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.container{
+    margin: auto;
+    height: 500px;
+    width: 500px;
+    background-color: gray;
+}
